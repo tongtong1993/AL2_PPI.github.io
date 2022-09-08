@@ -1,0 +1,58 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "I",
+			"atomName": "NE1",
+			"residueNumber": "307",
+			"residueName": "TRP",
+			"isLigand": true,
+			"atomType": "Aromatic/Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "15"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "E",
+			"atomName": "CE2",
+			"residueNumber": "151",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "E",
+			"atomName": "CZ",
+			"residueNumber": "151",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "3"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Aromatic",
+			"distance": "11.569544325501056",
+			"interactionTypeInt": "17"
+		},
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Aromatic",
+			"distance": "10.17816407514988",
+			"interactionTypeInt": "17"
+		}
+	]
+}

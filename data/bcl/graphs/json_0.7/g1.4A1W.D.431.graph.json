@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "D",
+			"atomName": "CD2",
+			"residueNumber": "108",
+			"residueName": "LEU",
+			"isLigand": false,
+			"atomType": "Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "S",
+			"atomName": "CD1",
+			"residueNumber": "208",
+			"residueName": "ILE",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "13.408626689622054",
+			"interactionTypeInt": "23"
+		}
+	]
+}

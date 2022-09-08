@@ -1,0 +1,68 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "L",
+			"atomName": "OE2",
+			"residueNumber": "37",
+			"residueName": "GLU",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "L",
+			"atomName": "NZ",
+			"residueNumber": "11",
+			"residueName": "LYS",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "T",
+			"atomName": "NZ",
+			"residueNumber": "60",
+			"residueName": "LYS",
+			"isLigand": false,
+			"atomType": "Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "55"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Salt bridge",
+			"distance": "30.4531625843847",
+			"interactionTypeInt": "19"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 1,
+			"interactionType": "Repulsive",
+			"distance": "14.798504233771382",
+			"interactionTypeInt": "31"
+		}
+	]
+}

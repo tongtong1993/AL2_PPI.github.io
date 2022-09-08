@@ -1,0 +1,92 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "G",
+			"atomName": "CG",
+			"residueNumber": "156",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "C",
+			"atomName": "CG",
+			"residueNumber": "129",
+			"residueName": "GLU",
+			"isLigand": false,
+			"atomType": "Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "G",
+			"atomName": "CB",
+			"residueNumber": "156",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "G",
+			"atomName": "CD2",
+			"residueNumber": "156",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "12.269670742920425",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "14.137197367737826",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 3,
+			"interactionType": "Hydrophobic",
+			"distance": "12.558502894262347",
+			"interactionTypeInt": "23"
+		}
+	]
+}

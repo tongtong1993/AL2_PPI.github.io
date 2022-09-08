@@ -1,0 +1,302 @@
+/* Overwriting styles of the template */
+html, 
+body {
+    height: 100%;
+}
+
+.box.box-solid.box-default>.box-header {
+    color: #444;
+    background: #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+a.clear-link:focus, a.clear-link:hover {
+    color: #23527c !important;
+    text-decoration: underline !important;
+}
+
+a.clear-link:hover {
+    background: none !important;
+}
+
+a.clear-link {
+	color: #3c8dbc !important;
+}
+
+.modal-primary .modal-body {
+    background-color: #FFFFFF !important;
+}
+
+.alert-info {
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+    border-color: #bce8f1 !important; 
+}
+
+/* DataTable Sort icon */
+table.dataTable thead .sorting {
+    background: url("../../media/img/sort_both.png") no-repeat center right;
+}
+table.dataTable thead .sorting_desc {
+    background: url("../../media/img/sort_desc.png") no-repeat center right;
+}
+table.dataTable thead .sorting_asc {
+    background: url("../../media/img/sort_asc.png") no-repeat center right;
+}
+
+/* General style */
+
+.border-success { border: 2px solid #5cb85c !important; }
+
+.modal-thumbnail .modal-dialog { width: 60%; }
+.modal-thumbnail .caption { padding: 4px 0px; margin-left: 5px; }
+.modal-thumbnail .caption * { margin: 0px; margin-bottom: 2px; }
+
+.cursor-pointer { cursor: pointer; }
+
+.input-xs {
+    height: 22px;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/* Graph patterns page */
+
+#optionsDiv > .box-body .row { margin-bottom: 5px; }
+
+#secondaryOptionDiv .btn { background: white; }
+
+.box > .box-header > p { margin: 0px; font-size: 11px; } 
+
+.main-pattern-graph-div, .main-input-graph-div { max-height: 600px; overflow-y:scroll; }
+.graphs-div .panel-heading { font-size: 12px; }
+
+.pattern-graph-div { padding-left: 0px; padding-right: 0px; }
+
+#ligandsViewModal .row > div { padding-right: 8px; padding-left: 8px; }
+
+#ligandsViewModal img { width: 100%; cursor: pointer; }
+
+#interViewModal .modal-dialog { width:60%}
+
+#interViewModal .inter-view-div {
+  width: 600px;
+  height: 600px;
+  /*position: relative;*/
+  position: relative;
+  /*left: 50%;*/
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+#interViewModal .modal-content {
+  width: 720px;
+  height: 720px
+}
+
+#interViewModal .modal-body {
+  width: 100%;
+  height: 100%;
+}
+
+.main-inter-view-div {
+  /*float:left;*/
+  width: 650px;
+  height:100%;
+  overflow: hidden;
+  margin: auto;
+  /*display: inline-block;*/
+}
+
+#inter-view-side-nav {
+  float:right;
+  width: 400px;
+  height:100%;
+  display: inline-block;
+}
+
+#inter-view-add-btns {
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  text-align: center;
+  width: 100%;
+}
+
+/*#inter-view-add-btns .btn-group {
+  position: relative;
+  left: 70px;
+}*/
+
+
+
+/* MULTISELECT DIV */
+.multiselect-div ul li a:hover { background: #08C; color: #FFF; }
+.multiselect-div ul li a { padding: 0px; }
+.multiselect-div ul li a label { padding: 3px 20px 3px 30px; margin: 0px;}
+.multiselect-div .btn { width: 100%; background: white; }
+
+.multiselect-div[disabled] {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1;
+}
+
+/* Dropdown button */
+ul.dropdown-menu li a:hover {
+    background: #08C;
+    color: #FFF;
+}
+
+/* END Graph patterns page */
+
+/* Pattern table */
+
+#groupingTableDiv table th, #groupingTableDiv table td, #simpleTableDiv table th, #simpleTableDiv table td { text-align: center; }
+		    
+#groupingTableDiv table .group-col-0 { background: #C4D7ED; }
+#groupingTableDiv table .group-col-1 { background: #E1E6FA; }
+#groupingTableDiv table .group:hover { opacity: 0.8 }
+
+#simpleTableDiv { font-size: 10px; }
+#simpleTableDiv .th-0 { background: #f9f9f9; }
+#simpleTableDiv .th-groups { padding: 10px 0px; }
+#simpleTableDiv .th-0 strong { font-size: 12px; float: left; }
+#simpleTableDiv tbody td { color: black; }
+
+#simpleTableDiv.fixed-first-col tbody td:first-child { position: absolute; width: 5em; }
+#simpleTableDiv.fixed-first-col tbody tr:nth-child(odd) td:first-child { background: #f9f9f9; }
+#simpleTableDiv.fixed-first-col tbody tr:nth-child(even) td:first-child { background: #fff; }
+
+/* Graphical analysis */
+
+.nav-tabs-custom .tab-content > div { margin-top: 5px; margin-bottom: 10px; }
+
+/* D3tip style */
+
+.bar-label-yAxis { font-size: 11px; }
+.bar-label-xAxis { font-size: 12px; font-weight: bold; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: gray;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path { stroke: gray; }
+
+.legend-group { font-size: 11px }
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #7CDBAE;
+  border-radius: 2px;
+  z-index: 2000;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+/* Details page */
+
+#groupDetails td:first-child {
+  text-align: center;
+}
+/*#graphsViewModal .modal-dialog { width: 60% }*/
+/*.modal-body .row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}*/
+
+.inter-view-div canvas {
+  position: relative;
+}
+
+#selection-list {
+  overflow: auto;
+  height: 570px;
+}
+
+#selection-list label {
+  color: black !important;
+  padding-top: 3px;
+}
+
+#selection-list .selection {
+  width: 97%;
+  margin: auto;
+}
+
+#selection-list .form-group{
+  margin-bottom: 5px;
+}
+
+#selection-list input {
+  height: 25px;
+}
+
+#selection-list select {
+  height: 25px;
+  width: 92.5%;
+  padding: 1px 10px;
+  margin: auto;
+}
+
+#selection-list .box-header {
+  padding: 3px 10px;
+}
+
+#selection-list .box-tools {
+  top: 0px;
+}
+
+.attribute-box {
+  width: 85%;
+  margin:4px auto 0px;
+  padding: 0px;
+  border: none;
+  height: 25px;
+}
+
+.attribute-box .col-xs-5, .attribute-box .col-xs-6 {
+  padding: 0px;
+
+}
+
+#selection-list .attribute-box select.btn {
+  height: 23px;
+}
+
+.attribute-box .btn-box-tool {
+  padding: 2px;
+}
+

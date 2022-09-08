@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CE1",
+			"residueNumber": "59",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CD1",
+			"residueNumber": "134",
+			"residueName": "ILE",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "12.754669061924005",
+			"interactionTypeInt": "23"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "B",
+			"atomName": "OD2",
+			"residueNumber": "84",
+			"residueName": "ASP",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "B",
+			"atomName": "OD1",
+			"residueNumber": "84",
+			"residueName": "ASP",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "B",
+			"atomName": "OD2",
+			"residueNumber": "86",
+			"residueName": "ASP",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 3,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "OD2",
+			"residueNumber": "102",
+			"residueName": "ASP",
+			"isLigand": false,
+			"atomType": "Acceptor/Negative",
+			"color": "#7CB4BE",
+			"atomTypeInt": "26"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 3,
+			"target": 0,
+			"interactionType": "Repulsive",
+			"distance": "31.808302292434973",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [],
+			"source": 3,
+			"target": 1,
+			"interactionType": "Repulsive",
+			"distance": "31.78957094349721",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [],
+			"source": 3,
+			"target": 2,
+			"interactionType": "Repulsive",
+			"distance": "34.720854088989654",
+			"interactionTypeInt": "31"
+		}
+	]
+}

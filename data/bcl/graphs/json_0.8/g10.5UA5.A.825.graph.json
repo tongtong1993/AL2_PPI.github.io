@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "O",
+			"residueNumber": "45",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Acceptor",
+			"color": "#9BCE91",
+			"atomTypeInt": "2"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "NE2",
+			"residueNumber": "143",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor/Aromatic/Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "330"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "4.736478115696187",
+			"interactionTypeInt": "29"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Acceptor",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "atomType": "Acceptor",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 3,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        },
+        {
+            "index": 4,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            1,
+            26,
+            104,
+            115,
+            375,
+            482,
+            530,
+            548,
+            676,
+            830
+        ]
+    }
+}

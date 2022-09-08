@@ -1,0 +1,58 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "CE1",
+			"residueNumber": "151",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "B",
+			"atomName": "CD2",
+			"residueNumber": "7",
+			"residueName": "TYR",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "CZ",
+			"residueNumber": "151",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "3"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "13.0430900710071",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 1,
+			"interactionType": "Aromatic",
+			"distance": "12.179662427008225",
+			"interactionTypeInt": "17"
+		}
+	]
+}

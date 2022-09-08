@@ -1,0 +1,84 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "B",
+			"atomName": "OE2",
+			"residueNumber": "13",
+			"residueName": "GLU",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "OH",
+			"residueNumber": "39",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Acceptor/Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "10"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "NZ",
+			"residueNumber": "60",
+			"residueName": "LYS",
+			"isLigand": false,
+			"atomType": "Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "55"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "NZ",
+			"residueNumber": "6",
+			"residueName": "LYS",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.712089878752124",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Hydrogen bond/Salt bridge",
+			"distance": "8.860015087070678",
+			"interactionTypeInt": "551"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 3,
+			"interactionType": "Repulsive",
+			"distance": "17.62306702822775",
+			"interactionTypeInt": "31"
+		}
+	]
+}

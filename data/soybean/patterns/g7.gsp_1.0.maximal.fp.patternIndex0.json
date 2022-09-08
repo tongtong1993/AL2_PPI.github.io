@@ -1,0 +1,61 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 1,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            48,
+            57,
+            67,
+            120,
+            174,
+            184,
+            194,
+            283,
+            340,
+            350,
+            359,
+            370,
+            380,
+            390,
+            399,
+            412,
+            429,
+            439,
+            449,
+            457,
+            467,
+            477,
+            487,
+            497,
+            507,
+            590,
+            641,
+            658,
+            679,
+            767,
+            818,
+            837,
+            848,
+            858,
+            868
+        ]
+    }
+}

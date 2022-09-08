@@ -1,0 +1,116 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "O",
+			"residueNumber": "187",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Acceptor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "2"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "OD1",
+			"residueNumber": "186",
+			"residueName": "ASP",
+			"isLigand": false,
+			"atomType": "Acceptor/Negative",
+			"color": "#7CB4BE",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "OD2",
+			"residueNumber": "186",
+			"residueName": "ASP",
+			"isLigand": false,
+			"atomType": "Acceptor/Negative",
+			"color": "#7CB4BE",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "OG",
+			"residueNumber": "187",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Acceptor/Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "10"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				0
+			],
+			"chain": "C",
+			"atomName": "NZ",
+			"residueNumber": "145",
+			"residueName": "LYS",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 4,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.993250378651979",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 4,
+			"interactionType": "Salt bridge",
+			"distance": "10.265867212731393",
+			"interactionTypeInt": "19"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 4,
+			"interactionType": "Salt bridge",
+			"distance": "16.305263466672287",
+			"interactionTypeInt": "19"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 3,
+			"target": 4,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.360938156995473",
+			"interactionTypeInt": "29"
+		}
+	]
+}

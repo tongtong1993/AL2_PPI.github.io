@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "D",
+			"atomName": "CG2",
+			"residueNumber": "30",
+			"residueName": "ILE",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CE3",
+			"residueNumber": "216",
+			"residueName": "TRP",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "14.291836750621087",
+			"interactionTypeInt": "23"
+		}
+	]
+}

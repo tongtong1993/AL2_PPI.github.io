@@ -1,0 +1,38 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "D",
+			"atomName": "OG",
+			"residueNumber": "127",
+			"residueName": "SER",
+			"isLigand": true,
+			"atomType": "Acceptor/Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "10"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "C",
+			"atomName": "OH",
+			"residueNumber": "195",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Acceptor/Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "10"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.42887578308364",
+			"interactionTypeInt": "29"
+		}
+	]
+}

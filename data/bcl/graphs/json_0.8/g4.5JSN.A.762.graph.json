@@ -1,0 +1,92 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CD1",
+			"residueNumber": "104",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CG",
+			"residueNumber": "62",
+			"residueName": "PHE",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CD1",
+			"residueNumber": "62",
+			"residueName": "PHE",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CD2",
+			"residueNumber": "62",
+			"residueName": "PHE",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "14.403341367633914",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 3,
+			"interactionType": "Hydrophobic",
+			"distance": "14.181435152848735",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "12.395126728837567",
+			"interactionTypeInt": "23"
+		}
+	]
+}

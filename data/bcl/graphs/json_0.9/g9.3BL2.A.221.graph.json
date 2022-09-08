@@ -1,0 +1,116 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "C",
+			"atomName": "CG2",
+			"residueNumber": "117",
+			"residueName": "THR",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "C",
+			"atomName": "CD2",
+			"residueNumber": "114",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CZ",
+			"residueNumber": "48",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CE1",
+			"residueNumber": "48",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "CE2",
+			"residueNumber": "48",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 3,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "14.422636415213251",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 4,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "14.006846433441936",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "12.792877955291772",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 3,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "14.254265398773214",
+			"interactionTypeInt": "23"
+		}
+	]
+}

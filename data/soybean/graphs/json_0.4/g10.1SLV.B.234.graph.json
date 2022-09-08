@@ -1,0 +1,116 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "O",
+			"residueNumber": "84",
+			"residueName": "MET",
+			"isLigand": true,
+			"atomType": "Acceptor",
+			"color": "#9BCE91",
+			"atomTypeInt": "2"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "N",
+			"residueNumber": "193",
+			"residueName": "GLY",
+			"isLigand": false,
+			"atomType": "Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "N",
+			"residueNumber": "195",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "N",
+			"residueNumber": "85",
+			"residueName": "MET",
+			"isLigand": true,
+			"atomType": "Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "OG",
+			"residueNumber": "195",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Acceptor/Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "10"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.990440455051044",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.61014060391182",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 4,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.8362459104581745",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 4,
+			"target": 3,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.613851749367555",
+			"interactionTypeInt": "29"
+		}
+	]
+}

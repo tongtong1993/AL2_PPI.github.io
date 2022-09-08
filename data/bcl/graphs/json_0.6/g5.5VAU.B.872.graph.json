@@ -1,0 +1,68 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CG1",
+			"residueNumber": "133",
+			"residueName": "VAL",
+			"isLigand": false,
+			"atomType": "Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "CB",
+			"residueNumber": "153",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "F",
+			"atomName": "CD1",
+			"residueNumber": "116",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "13.00972182098485",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "14.298604642121063",
+			"interactionTypeInt": "23"
+		}
+	]
+}

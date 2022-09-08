@@ -1,0 +1,140 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "N",
+			"residueNumber": "8",
+			"residueName": "LYS",
+			"isLigand": true,
+			"atomType": "Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "N",
+			"residueNumber": "9",
+			"residueName": "SER",
+			"isLigand": true,
+			"atomType": "Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "OG",
+			"residueNumber": "200",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Acceptor/Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "10"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0
+			],
+			"chain": "B",
+			"atomName": "O",
+			"residueNumber": "8",
+			"residueName": "LYS",
+			"isLigand": true,
+			"atomType": "Acceptor",
+			"color": "#9BCE91",
+			"atomTypeInt": "2"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "N",
+			"residueNumber": "200",
+			"residueName": "SER",
+			"isLigand": false,
+			"atomType": "Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 5,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "N",
+			"residueNumber": "198",
+			"residueName": "GLY",
+			"isLigand": false,
+			"atomType": "Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "5"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.360580960602647",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 1,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.833044829849314",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 2,
+			"target": 3,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.776123667717229",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 5,
+			"target": 3,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.456410846080928",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 4,
+			"target": 3,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.122220908173631",
+			"interactionTypeInt": "29"
+		}
+	]
+}

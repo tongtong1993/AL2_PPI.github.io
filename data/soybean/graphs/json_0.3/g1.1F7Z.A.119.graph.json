@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "N",
+			"residueNumber": "216",
+			"residueName": "GLY",
+			"isLigand": false,
+			"atomType": "Donor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "5"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "I",
+			"atomName": "O",
+			"residueNumber": "13",
+			"residueName": "PRO",
+			"isLigand": true,
+			"atomType": "Acceptor",
+			"color": "#9BCE91",
+			"atomTypeInt": "2"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.794566645490931",
+			"interactionTypeInt": "29"
+		}
+	]
+}

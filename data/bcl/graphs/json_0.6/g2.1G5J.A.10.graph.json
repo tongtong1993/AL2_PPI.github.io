@@ -1,0 +1,199 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "A",
+			"atomName": "CB",
+			"residueNumber": "146",
+			"residueName": "ALA",
+			"isLigand": false,
+			"atomType": "Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "B",
+			"atomName": "CD2",
+			"residueNumber": "312",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "B",
+			"atomName": "CB",
+			"residueNumber": "315",
+			"residueName": "MET",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "A",
+			"atomName": "CZ",
+			"residueNumber": "101",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "A",
+			"atomName": "CE1",
+			"residueNumber": "101",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 5,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "A",
+			"atomName": "CE2",
+			"residueNumber": "101",
+			"residueName": "PHE",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 6,
+			"patterns": [
+				0,
+				1
+			],
+			"chain": "B",
+			"atomName": "CD1",
+			"residueNumber": "312",
+			"residueName": "LEU",
+			"isLigand": true,
+			"atomType": "Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "7"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 0,
+			"target": 6,
+			"interactionType": "Hydrophobic",
+			"distance": "14.42582891511536",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 4,
+			"target": 1,
+			"interactionType": "Hydrophobic",
+			"distance": "13.344384862175048",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 4,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "13.372638929855384",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 5,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "13.559229543922584",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 3,
+			"target": 2,
+			"interactionType": "Hydrophobic",
+			"distance": "9.398625770973297",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 3,
+			"target": 6,
+			"interactionType": "Hydrophobic",
+			"distance": "8.989182965988277",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 4,
+			"target": 6,
+			"interactionType": "Hydrophobic",
+			"distance": "11.126801678298989",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				0,
+				1
+			],
+			"source": 5,
+			"target": 6,
+			"interactionType": "Hydrophobic",
+			"distance": "14.157219416076714",
+			"interactionTypeInt": "23"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "E",
+			"atomName": "NE2",
+			"residueNumber": "40",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor/Aromatic/Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "330"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "E",
+			"atomName": "O",
+			"residueNumber": "40",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor",
+			"color": "#7CB4BE",
+			"atomTypeInt": "2"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				0
+			],
+			"chain": "I",
+			"atomName": "NH2",
+			"residueNumber": "517",
+			"residueName": "ARG",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 2,
+			"interactionType": "Repulsive",
+			"distance": "34.979605287681125",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [
+				0
+			],
+			"source": 1,
+			"target": 2,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.909964492401969",
+			"interactionTypeInt": "29"
+		}
+	]
+}

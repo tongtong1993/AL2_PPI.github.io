@@ -1,0 +1,58 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "I",
+			"atomName": "NE",
+			"residueNumber": "520",
+			"residueName": "ARG",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "E",
+			"atomName": "NZ",
+			"residueNumber": "60",
+			"residueName": "LYS",
+			"isLigand": false,
+			"atomType": "Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "55"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "I",
+			"atomName": "NH2",
+			"residueNumber": "520",
+			"residueName": "ARG",
+			"isLigand": true,
+			"atomType": "Donor/Positive",
+			"color": "#9BCE91",
+			"atomTypeInt": "55"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Repulsive",
+			"distance": "30.881091812497516",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 2,
+			"interactionType": "Repulsive",
+			"distance": "31.95533933726915",
+			"interactionTypeInt": "31"
+		}
+	]
+}

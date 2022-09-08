@@ -1,0 +1,29 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Acceptor/Donor",
+            "atomTypeInt": "10"
+        },
+        {
+            "index": 1,
+            "atomType": "Acceptor/Donor",
+            "atomTypeInt": "10"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            21,
+            515,
+            582
+        ]
+    }
+}

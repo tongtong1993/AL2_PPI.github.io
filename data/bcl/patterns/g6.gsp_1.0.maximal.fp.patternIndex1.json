@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Acceptor/Negative",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 1,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 3,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            39,
+            47,
+            56,
+            66,
+            78,
+            203,
+            217,
+            273,
+            280,
+            304,
+            371,
+            438,
+            458,
+            468,
+            491,
+            593,
+            627,
+            661,
+            688,
+            862,
+            873,
+            884,
+            893,
+            911,
+            938,
+            948,
+            958,
+            972,
+            1018,
+            1030,
+            1038,
+            1045,
+            1050,
+            1058
+        ]
+    }
+}

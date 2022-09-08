@@ -1,0 +1,98 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "OE1",
+			"residueNumber": "123",
+			"residueName": "GLU",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "NE1",
+			"residueNumber": "122",
+			"residueName": "TRP",
+			"isLigand": true,
+			"atomType": "Aromatic/Donor",
+			"color": "#9BCE91",
+			"atomTypeInt": "15"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "D",
+			"atomName": "OD2",
+			"residueNumber": "74",
+			"residueName": "ASP",
+			"isLigand": false,
+			"atomType": "Acceptor/Negative",
+			"color": "#7CB4BE",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 3,
+			"patterns": [],
+			"chain": "D",
+			"atomName": "OD1",
+			"residueNumber": "74",
+			"residueName": "ASP",
+			"isLigand": false,
+			"atomType": "Acceptor/Negative",
+			"color": "#7CB4BE",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 4,
+			"patterns": [],
+			"chain": "A",
+			"atomName": "OE2",
+			"residueNumber": "123",
+			"residueName": "GLU",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Repulsive",
+			"distance": "25.13475169956223",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 1,
+			"interactionType": "Hydrogen bond",
+			"distance": "7.6220032674286",
+			"interactionTypeInt": "29"
+		},
+		{
+			"patterns": [],
+			"source": 2,
+			"target": 4,
+			"interactionType": "Repulsive",
+			"distance": "14.154650701618323",
+			"interactionTypeInt": "31"
+		},
+		{
+			"patterns": [],
+			"source": 3,
+			"target": 4,
+			"interactionType": "Repulsive",
+			"distance": "34.42352033293923",
+			"interactionTypeInt": "31"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Aromatic",
+            "atomTypeInt": "3"
+        },
+        {
+            "index": 1,
+            "atomType": "Aromatic/Hydrophobic",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 2,
+            "atomType": "Aromatic/Hydrophobic",
+            "atomTypeInt": "21"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Aromatic",
+            "interactionTypeInt": "17"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Aromatic",
+            "interactionTypeInt": "17"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            273,
+            279,
+            741,
+            746
+        ]
+    }
+}

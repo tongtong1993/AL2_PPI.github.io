@@ -1,0 +1,78 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [],
+			"chain": "G",
+			"atomName": "OD2",
+			"residueNumber": "108",
+			"residueName": "ASP",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 1,
+			"patterns": [],
+			"chain": "C",
+			"atomName": "NE2",
+			"residueNumber": "120",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor/Aromatic/Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "330"
+		},
+		{
+			"index": 2,
+			"patterns": [],
+			"chain": "G",
+			"atomName": "OD1",
+			"residueNumber": "108",
+			"residueName": "ASP",
+			"isLigand": true,
+			"atomType": "Acceptor/Negative",
+			"color": "#9BCE91",
+			"atomTypeInt": "26"
+		},
+		{
+			"index": 3,
+			"patterns": [],
+			"chain": "C",
+			"atomName": "ND1",
+			"residueNumber": "120",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor/Aromatic/Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "330"
+		}
+	],
+	"links": [
+		{
+			"patterns": [],
+			"source": 3,
+			"target": 0,
+			"interactionType": "Salt bridge",
+			"distance": "23.14538771876147",
+			"interactionTypeInt": "19"
+		},
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 0,
+			"interactionType": "Hydrogen bond/Salt bridge",
+			"distance": "7.228473107460616",
+			"interactionTypeInt": "551"
+		},
+		{
+			"patterns": [],
+			"source": 1,
+			"target": 2,
+			"interactionType": "Salt bridge",
+			"distance": "21.912321461897818",
+			"interactionTypeInt": "19"
+		}
+	]
+}

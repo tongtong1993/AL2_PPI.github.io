@@ -1,0 +1,44 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				0
+			],
+			"chain": "C",
+			"atomName": "NE2",
+			"residueNumber": "491",
+			"residueName": "HIS",
+			"isLigand": false,
+			"atomType": "Acceptor/Aromatic/Donor/Positive",
+			"color": "#7CB4BE",
+			"atomTypeInt": "330"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				0
+			],
+			"chain": "A",
+			"atomName": "O",
+			"residueNumber": "67",
+			"residueName": "TRP",
+			"isLigand": true,
+			"atomType": "Acceptor",
+			"color": "#9BCE91",
+			"atomTypeInt": "2"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				0
+			],
+			"source": 0,
+			"target": 1,
+			"interactionType": "Hydrogen bond",
+			"distance": "8.405067408807156",
+			"interactionTypeInt": "29"
+		}
+	]
+}

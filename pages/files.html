@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ppi-Gremlin</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta name="author" content="Alexandre Fassio">
+  <meta name="description" content="ppi-GReMLIN: A graph mining based detection of conserved structural arrangements in protein-protein interfaces">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="../media/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../media/css/AdminLTE.min.css">
+  <!-- DataTable style -->
+  <link rel="stylesheet" href="../media/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../media/css/dataTables.fixedHeader.min.css">
+
+  <link rel="stylesheet" href="../media/css/skin-gremlin.css">
+  <link rel="stylesheet" href="../media/css/main-gremlin.css">
+
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+  
+  <div class="wrapper">
+
+    <!-- Main Header -->
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">      
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>PPI-GREMLIN</b></span>
+      </a>
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
+
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+
+      </nav>
+    </header>
+
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+          
+          <li class="header">Menu</li>
+        
+          <li class="active"><a href="#"><i class="fa fa-file"></i> <span>Files</span></a></li>
+          
+          <li class="treeview">
+            <a href="#"><i class="fa fa-database"></i> <span>Serine Protease</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="details/details-soybean.html">Dataset details</a></li>
+              <li><a href="pattern-table/patterns-table-soybean.html">Graph patterns table</a></li>
+              <li><a href="graphs/graphs-soybean.html">Graph patterns view</a></li>
+              <li><a href="charts/charts-soybean.html">Graphical analysis</a></li>
+            </ul>
+          </li>
+
+          <li class="treeview">
+            <a href="#"><i class="fa fa-database"></i> <span>BCL-2</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="details/details-bcl.html">Dataset details</a></li>
+              <li><a href="pattern-table/patterns-table-bcl.html">Graph patterns table</a></li>
+              <li><a href="graphs/graphs-bcl.html">Graph patterns view</a></li>
+              <li><a href="charts/charts-bcl.html">Graphical analysis</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Files          
+        </h1>
+      </section>
+
+      <!-- Main content -->
+      <section class="content">
+
+        <div class="row">
+
+          <!-- Table section-->
+          <section class="col-lg-12 connectedSortable ui-sortable">
+            <div class="box">         
+              <div class="box-header with-border">
+                <h3 class="box-title">Available files</h3>                
+              </div>
+
+              <div class="box-body">
+                <div class="table-div">
+                  <table class="table table-responsive table-bordered">
+                    <tbody>
+                      <tr>
+                        <th>File</th>
+                        <th>Description</th>
+                        <th class="text-center">Link</th>                        
+                      </tr>
+                      <tr>
+                        <td>Source code</td>
+                        <td>Contains the source code and a tutorial about how to run ppiGReMLIN.</td>
+                        <td class="text-center"><a href="https://github.com/ppigremlin/ppiGremlin" title="Click here to access ppiGReMLIN repository." target="_blank"><span class="fa fa-link"></span></a>
+                      </tr>    
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED JS SCRIPTS -->
+
+  <!-- jQuery -->
+  <script src="../media/js/jquery-1.11.2.min.js"></script>
+  <!-- Bootstrap 3.3.6 -->
+  <script src="../media/bootstrap/js/bootstrap.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../media/js/app.min.js"></script>  
+
+</body>
+
+</html>

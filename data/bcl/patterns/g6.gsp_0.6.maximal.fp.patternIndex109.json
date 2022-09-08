@@ -1,0 +1,152 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Acceptor",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 3,
+            "atomType": "Acceptor/Negative",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 4,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 5,
+            "atomType": "Acceptor/Negative",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 6,
+            "atomType": "Donor",
+            "atomTypeInt": "5"
+        },
+        {
+            "index": 7,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 8,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 9,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 3,
+            "target": 7,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "19"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            39,
+            47,
+            56,
+            78,
+            458,
+            468,
+            491,
+            862,
+            873,
+            884,
+            893,
+            911,
+            938,
+            948,
+            958,
+            972,
+            1018,
+            1038,
+            1050,
+            1058
+        ]
+    }
+}

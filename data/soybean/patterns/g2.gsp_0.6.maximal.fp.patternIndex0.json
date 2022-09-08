@@ -1,0 +1,85 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "23"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            2,
+            5,
+            7,
+            30,
+            45,
+            90,
+            128,
+            129,
+            134,
+            143,
+            146,
+            153,
+            160,
+            217,
+            245,
+            248,
+            256,
+            265,
+            290,
+            314,
+            331,
+            410,
+            524,
+            534,
+            535,
+            540,
+            542,
+            572,
+            573,
+            588,
+            617,
+            621,
+            628,
+            675,
+            691,
+            701,
+            703,
+            711,
+            719,
+            727,
+            739,
+            745,
+            762,
+            786,
+            791,
+            826,
+            856,
+            866
+        ]
+    }
+}

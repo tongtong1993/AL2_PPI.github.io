@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 1,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 3,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 4,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 5,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "31"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            122,
+            239,
+            651
+        ]
+    }
+}

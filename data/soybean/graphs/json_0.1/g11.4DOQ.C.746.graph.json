@@ -1,0 +1,131 @@
+{
+	"nodes": [
+		{
+			"index": 0,
+			"patterns": [
+				1
+			],
+			"chain": "D",
+			"atomName": "CD1",
+			"residueNumber": "68",
+			"residueName": "TYR",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 1,
+			"patterns": [
+				1,
+				4
+			],
+			"chain": "D",
+			"atomName": "CE1",
+			"residueNumber": "68",
+			"residueName": "TYR",
+			"isLigand": true,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#9BCE91",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 2,
+			"patterns": [
+				1,
+				4
+			],
+			"chain": "C",
+			"atomName": "CE1",
+			"residueNumber": "217",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		},
+		{
+			"index": 3,
+			"patterns": [
+				4
+			],
+			"chain": "D",
+			"atomName": "CZ",
+			"residueNumber": "68",
+			"residueName": "TYR",
+			"isLigand": true,
+			"atomType": "Aromatic",
+			"color": "#9BCE91",
+			"atomTypeInt": "3"
+		},
+		{
+			"index": 4,
+			"patterns": [
+				1,
+				4
+			],
+			"chain": "C",
+			"atomName": "CD1",
+			"residueNumber": "217",
+			"residueName": "TYR",
+			"isLigand": false,
+			"atomType": "Aromatic/Hydrophobic",
+			"color": "#7CB4BE",
+			"atomTypeInt": "21"
+		}
+	],
+	"links": [
+		{
+			"patterns": [
+				1
+			],
+			"source": 4,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "13.396231157654256",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				1
+			],
+			"source": 2,
+			"target": 0,
+			"interactionType": "Hydrophobic",
+			"distance": "13.019133833796559",
+			"interactionTypeInt": "23"
+		},
+		{
+			"patterns": [
+				1,
+				4
+			],
+			"source": 4,
+			"target": 1,
+			"interactionType": "Aromatic/Hydrophobic",
+			"distance": "10.930195289307449",
+			"interactionTypeInt": "391"
+		},
+		{
+			"patterns": [
+				1,
+				4
+			],
+			"source": 2,
+			"target": 1,
+			"interactionType": "Aromatic/Hydrophobic",
+			"distance": "10.784580849397798",
+			"interactionTypeInt": "391"
+		},
+		{
+			"patterns": [
+				4
+			],
+			"source": 4,
+			"target": 3,
+			"interactionType": "Aromatic",
+			"distance": "11.549732567620822",
+			"interactionTypeInt": "17"
+		}
+	]
+}
