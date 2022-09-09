@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "560",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CE1",
+            "residueNumber": "128",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "503",
+            "residueName": "PRO",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CD1",
+            "residueNumber": "128",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "distance": "3.643226018494008",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.3504631103989047",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.675389599336335",
+            "interactionTypeInt": "29"
+        }
+    ]
+}

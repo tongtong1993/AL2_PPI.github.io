@@ -1,0 +1,92 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "NH2",
+            "residueNumber": "22",
+            "residueName": "ARG",
+            "isLigand": true,
+            "atomType": "Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NH1",
+            "residueNumber": "252",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NE",
+            "residueNumber": "252",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 3,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CZ",
+            "residueNumber": "252",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Repulsive",
+            "distance": "5.796318993050831",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Repulsive",
+            "distance": "5.5134307800574085",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 3,
+            "target": 0,
+            "interactionType": "Repulsive",
+            "distance": "5.800612392141974",
+            "interactionTypeInt": "37"
+        }
+    ]
+}

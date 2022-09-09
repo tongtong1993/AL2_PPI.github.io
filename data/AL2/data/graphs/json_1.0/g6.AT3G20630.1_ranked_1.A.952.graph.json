@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OG",
+            "residueNumber": "58",
+            "residueName": "SER",
+            "isLigand": true,
+            "atomType": "Acceptor/Donor",
+            "color": "#9BCE91",
+            "atomTypeInt": "10"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OD2",
+            "residueNumber": "415",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.8141091945639807",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

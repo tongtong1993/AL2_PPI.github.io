@@ -1,0 +1,44 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "OD1",
+            "residueNumber": "87",
+            "residueName": "ASN",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "40",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.9214487940429175",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

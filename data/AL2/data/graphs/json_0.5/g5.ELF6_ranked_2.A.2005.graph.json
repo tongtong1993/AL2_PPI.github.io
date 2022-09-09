@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "110",
+            "residueName": "LEU",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "109",
+            "residueName": "SER",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "199",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH1",
+            "residueNumber": "199",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 3,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.8794477798488516",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.921928630492712",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.9651977527874713",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

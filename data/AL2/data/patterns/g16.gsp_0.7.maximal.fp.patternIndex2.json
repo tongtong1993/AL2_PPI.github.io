@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        },
+        {
+            "index": 1,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 3,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 4,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            56,
+            58,
+            75,
+            78,
+            188,
+            218,
+            266,
+            495,
+            664,
+            686,
+            696,
+            794,
+            893,
+            951,
+            970,
+            1038,
+            1097,
+            1110,
+            1206,
+            1234,
+            1256,
+            1262,
+            1320,
+            1337,
+            1354,
+            1402,
+            1471,
+            1628,
+            1653,
+            1689,
+            1693,
+            1712,
+            1760,
+            1803,
+            1818,
+            1822,
+            1845,
+            1876,
+            1922,
+            1926,
+            1949,
+            2035
+        ]
+    }
+}

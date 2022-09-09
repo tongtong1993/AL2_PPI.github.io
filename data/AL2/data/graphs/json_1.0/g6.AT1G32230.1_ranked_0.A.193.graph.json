@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OE1",
+            "residueNumber": "102",
+            "residueName": "GLU",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "N",
+            "residueNumber": "218",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "5"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.801884237553859",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

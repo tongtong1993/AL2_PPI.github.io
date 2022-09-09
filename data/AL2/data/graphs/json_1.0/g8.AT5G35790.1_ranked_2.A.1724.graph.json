@@ -1,0 +1,140 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "312",
+            "residueName": "TYR",
+            "isLigand": false,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "CD2",
+            "residueNumber": "66",
+            "residueName": "LEU",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "CD1",
+            "residueNumber": "66",
+            "residueName": "LEU",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CD1",
+            "residueNumber": "312",
+            "residueName": "TYR",
+            "isLigand": false,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 4,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CB",
+            "residueNumber": "312",
+            "residueName": "TYR",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 5,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CB",
+            "residueNumber": "309",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.5550891544424474",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 4,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.7396678738122273",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 5,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "distance": "3.7931541548363685",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 4,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "distance": "3.6639255812580473",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 3,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "distance": "3.736520933655392",
+            "interactionTypeInt": "29"
+        }
+    ]
+}

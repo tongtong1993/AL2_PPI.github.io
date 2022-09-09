@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "66",
+            "residueName": "LEU",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NZ",
+            "residueNumber": "314",
+            "residueName": "LYS",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.755976257355188",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "N",
+            "residueNumber": "38",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Donor",
+            "color": "#9BCE91",
+            "atomTypeInt": "5"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OG1",
+            "residueNumber": "412",
+            "residueName": "THR",
+            "isLigand": false,
+            "atomType": "Acceptor/Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "10"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.977704149307608",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

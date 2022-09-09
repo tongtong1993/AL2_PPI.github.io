@@ -1,0 +1,44 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "ND2",
+            "residueNumber": "87",
+            "residueName": "ASN",
+            "isLigand": true,
+            "atomType": "Donor",
+            "color": "#9BCE91",
+            "atomTypeInt": "5"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "OD2",
+            "residueNumber": "651",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.6882815464339846",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

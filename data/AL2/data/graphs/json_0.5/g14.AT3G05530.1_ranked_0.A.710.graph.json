@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CG",
+            "residueNumber": "20",
+            "residueName": "LYS",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CB",
+            "residueNumber": "91",
+            "residueName": "GLU",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "91",
+            "residueName": "GLU",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CB",
+            "residueNumber": "19",
+            "residueName": "ALA",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Hydrophobic",
+            "distance": "3.2559032096958416",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "distance": "3.47780269202662",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "distance": "3.6537742186446938",
+            "interactionTypeInt": "29"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OE1",
+            "residueNumber": "61",
+            "residueName": "GLU",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OE2",
+            "residueNumber": "448",
+            "residueName": "GLU",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OE1",
+            "residueNumber": "448",
+            "residueName": "GLU",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OE2",
+            "residueNumber": "61",
+            "residueName": "GLU",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Repulsive",
+            "distance": "5.1085624671595316",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 3,
+            "interactionType": "Repulsive",
+            "distance": "5.570584217192812",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 3,
+            "interactionType": "Repulsive",
+            "distance": "5.027831016689429",
+            "interactionTypeInt": "37"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "NH1",
+            "residueNumber": "28",
+            "residueName": "ARG",
+            "isLigand": true,
+            "atomType": "Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "OH",
+            "residueNumber": "65",
+            "residueName": "TYR",
+            "isLigand": true,
+            "atomType": "Acceptor/Donor",
+            "color": "#9BCE91",
+            "atomTypeInt": "10"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "O",
+            "residueNumber": "397",
+            "residueName": "LEU",
+            "isLigand": false,
+            "atomType": "Acceptor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "2"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.68302116160204",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 2,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.942318985765033",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

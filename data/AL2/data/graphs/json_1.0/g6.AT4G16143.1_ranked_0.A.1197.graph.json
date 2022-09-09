@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OE1",
+            "residueNumber": "99",
+            "residueName": "GLN",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NE2",
+            "residueNumber": "182",
+            "residueName": "GLN",
+            "isLigand": false,
+            "atomType": "Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "5"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.719557793243242",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

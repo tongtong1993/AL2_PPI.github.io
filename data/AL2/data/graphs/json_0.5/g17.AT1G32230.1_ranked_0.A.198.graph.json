@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "NH1",
+            "residueNumber": "51",
+            "residueName": "ARG",
+            "isLigand": true,
+            "atomType": "Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "NE",
+            "residueNumber": "51",
+            "residueName": "ARG",
+            "isLigand": true,
+            "atomType": "Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CZ",
+            "residueNumber": "51",
+            "residueName": "ARG",
+            "isLigand": true,
+            "atomType": "Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OD1",
+            "residueNumber": "380",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 3,
+            "target": 0,
+            "interactionType": "Salt bridge",
+            "distance": "4.595908229307611",
+            "interactionTypeInt": "23"
+        },
+        {
+            "patterns": [],
+            "source": 3,
+            "target": 1,
+            "interactionType": "Salt bridge",
+            "distance": "5.169529011126356",
+            "interactionTypeInt": "23"
+        },
+        {
+            "patterns": [],
+            "source": 3,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "distance": "5.3567809066860175",
+            "interactionTypeInt": "23"
+        }
+    ]
+}

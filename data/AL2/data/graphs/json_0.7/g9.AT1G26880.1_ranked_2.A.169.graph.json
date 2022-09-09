@@ -1,0 +1,98 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH1",
+            "residueNumber": "90",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "90",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OE2",
+            "residueNumber": "61",
+            "residueName": "GLU",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CZ",
+            "residueNumber": "90",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 4,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OH",
+            "residueNumber": "78",
+            "residueName": "TYR",
+            "isLigand": false,
+            "atomType": "Acceptor/Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "10"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "distance": "5.657344057161228",
+            "interactionTypeInt": "23"
+        },
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "distance": "5.448199199063161",
+            "interactionTypeInt": "23"
+        },
+        {
+            "patterns": [],
+            "source": 4,
+            "target": 2,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.706484184073404",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 3,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "distance": "5.864117424205567",
+            "interactionTypeInt": "23"
+        }
+    ]
+}

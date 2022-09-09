@@ -1,0 +1,149 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CG1",
+            "residueNumber": "12",
+            "residueName": "ILE",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "CD1",
+            "residueNumber": "12",
+            "residueName": "ILE",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "346",
+            "residueName": "PRO",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CB",
+            "residueNumber": "12",
+            "residueName": "ILE",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 4,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CG2",
+            "residueNumber": "12",
+            "residueName": "ILE",
+            "isLigand": true,
+            "atomType": "Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 5,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "A",
+            "atomName": "CB",
+            "residueNumber": "346",
+            "residueName": "PRO",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 5,
+            "target": 0,
+            "interactionType": "Hydrophobic",
+            "distance": "3.408951710726081",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Hydrophobic",
+            "distance": "3.410699853504633",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 5,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.5500010626403156",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 2,
+            "target": 4,
+            "interactionType": "Hydrophobic",
+            "distance": "3.245326149308258",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "distance": "3.5599257495703824",
+            "interactionTypeInt": "29"
+        }
+    ]
+}

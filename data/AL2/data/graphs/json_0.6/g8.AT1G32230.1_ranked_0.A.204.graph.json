@@ -1,0 +1,149 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "A",
+            "atomName": "CG",
+            "residueNumber": "506",
+            "residueName": "PRO",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "CG",
+            "residueNumber": "124",
+            "residueName": "TRP",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CE3",
+            "residueNumber": "124",
+            "residueName": "TRP",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 3,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CZ3",
+            "residueNumber": "124",
+            "residueName": "TRP",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 4,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "A",
+            "atomName": "CB",
+            "residueNumber": "506",
+            "residueName": "PRO",
+            "isLigand": false,
+            "atomType": "Hydrophobic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 5,
+            "patterns": [
+                0,
+                1
+            ],
+            "chain": "B",
+            "atomName": "CD2",
+            "residueNumber": "124",
+            "residueName": "TRP",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 0,
+            "target": 5,
+            "interactionType": "Hydrophobic",
+            "distance": "3.5362237741519738",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "distance": "3.6949227711661266",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 4,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "distance": "3.5543504395080476",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 4,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "distance": "3.7204798285237253",
+            "interactionTypeInt": "29"
+        },
+        {
+            "patterns": [
+                0,
+                1
+            ],
+            "source": 4,
+            "target": 5,
+            "interactionType": "Hydrophobic",
+            "distance": "3.712778141831881",
+            "interactionTypeInt": "29"
+        }
+    ]
+}

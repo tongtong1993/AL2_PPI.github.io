@@ -1,0 +1,58 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OD2",
+            "residueNumber": "579",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OD2",
+            "residueNumber": "118",
+            "residueName": "ASP",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "OD1",
+            "residueNumber": "118",
+            "residueName": "ASP",
+            "isLigand": true,
+            "atomType": "Acceptor/Negative",
+            "color": "#9BCE91",
+            "atomTypeInt": "26"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 1,
+            "interactionType": "Repulsive",
+            "distance": "5.380535628265805",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "distance": "4.814873088662377",
+            "interactionTypeInt": "37"
+        }
+    ]
+}

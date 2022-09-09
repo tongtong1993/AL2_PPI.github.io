@@ -1,0 +1,204 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "238",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "CZ",
+            "residueNumber": "238",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "ND1",
+            "residueNumber": "16",
+            "residueName": "HIS",
+            "isLigand": true,
+            "atomType": "Acceptor/Aromatic/Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "330"
+        },
+        {
+            "index": 3,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NE",
+            "residueNumber": "238",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 4,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OD1",
+            "residueNumber": "241",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 5,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "OD2",
+            "residueNumber": "241",
+            "residueName": "ASP",
+            "isLigand": false,
+            "atomType": "Acceptor/Negative",
+            "color": "#7CB4BE",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 6,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "NE2",
+            "residueNumber": "16",
+            "residueName": "HIS",
+            "isLigand": true,
+            "atomType": "Acceptor/Aromatic/Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "330"
+        },
+        {
+            "index": 7,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "NH1",
+            "residueNumber": "238",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 8,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "NZ",
+            "residueNumber": "20",
+            "residueName": "LYS",
+            "isLigand": true,
+            "atomType": "Donor/Positive",
+            "color": "#9BCE91",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "distance": "5.467481785267115",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 6,
+            "interactionType": "Repulsive",
+            "distance": "4.337114061896103",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 8,
+            "interactionType": "Repulsive",
+            "distance": "5.914133398822714",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 1,
+            "target": 6,
+            "interactionType": "Repulsive",
+            "distance": "5.532819757177033",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 3,
+            "target": 8,
+            "interactionType": "Repulsive",
+            "distance": "5.336841071544574",
+            "interactionTypeInt": "37"
+        },
+        {
+            "patterns": [],
+            "source": 4,
+            "target": 8,
+            "interactionType": "Hydrogen bond/Salt bridge",
+            "distance": "2.581857048613161",
+            "interactionTypeInt": "713"
+        },
+        {
+            "patterns": [],
+            "source": 5,
+            "target": 8,
+            "interactionType": "Hydrogen bond/Salt bridge",
+            "distance": "2.7372720494566596",
+            "interactionTypeInt": "713"
+        },
+        {
+            "patterns": [
+                0
+            ],
+            "source": 7,
+            "target": 6,
+            "interactionType": "Repulsive",
+            "distance": "5.813628910571652",
+            "interactionTypeInt": "37"
+        }
+    ]
+}

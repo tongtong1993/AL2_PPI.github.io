@@ -1,0 +1,118 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "64",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "410",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH1",
+            "residueNumber": "412",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "65",
+            "residueName": "TYR",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        },
+        {
+            "index": 4,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NE",
+            "residueNumber": "410",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 5,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NH2",
+            "residueNumber": "412",
+            "residueName": "ARG",
+            "isLigand": false,
+            "atomType": "Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "55"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.7447779759210156",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 2,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.8000930374141517",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 5,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.85729970257779",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 3,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.6660854324518066",
+            "interactionTypeInt": "31"
+        },
+        {
+            "patterns": [],
+            "source": 4,
+            "target": 3,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.6738727782200944",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

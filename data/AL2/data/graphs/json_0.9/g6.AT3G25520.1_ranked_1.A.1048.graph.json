@@ -1,0 +1,44 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [
+                0
+            ],
+            "chain": "A",
+            "atomName": "N",
+            "residueNumber": "74",
+            "residueName": "VAL",
+            "isLigand": false,
+            "atomType": "Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "5"
+        },
+        {
+            "index": 1,
+            "patterns": [
+                0
+            ],
+            "chain": "B",
+            "atomName": "O",
+            "residueNumber": "54",
+            "residueName": "HIS",
+            "isLigand": true,
+            "atomType": "Acceptor",
+            "color": "#9BCE91",
+            "atomTypeInt": "2"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [
+                0
+            ],
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.8457052970270267",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

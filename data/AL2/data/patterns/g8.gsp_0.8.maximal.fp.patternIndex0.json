@@ -1,0 +1,122 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 4,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            8,
+            37,
+            92,
+            204,
+            233,
+            277,
+            289,
+            311,
+            318,
+            334,
+            338,
+            357,
+            481,
+            546,
+            567,
+            657,
+            679,
+            735,
+            750,
+            767,
+            786,
+            788,
+            797,
+            800,
+            833,
+            838,
+            843,
+            927,
+            945,
+            957,
+            962,
+            997,
+            1013,
+            1042,
+            1061,
+            1150,
+            1182,
+            1231,
+            1233,
+            1291,
+            1358,
+            1425,
+            1446,
+            1450,
+            1487,
+            1518,
+            1570,
+            1618,
+            1647,
+            1658,
+            1719,
+            1724,
+            1729,
+            1753,
+            1769,
+            1839,
+            1877,
+            1895,
+            1911,
+            1932,
+            1947,
+            1977,
+            1988
+        ]
+    }
+}

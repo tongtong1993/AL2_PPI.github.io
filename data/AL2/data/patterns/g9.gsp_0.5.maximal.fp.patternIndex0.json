@@ -1,0 +1,135 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        },
+        {
+            "index": 1,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "atomType": "Acceptor/Negative",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 3,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 4,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            21,
+            48,
+            55,
+            74,
+            76,
+            97,
+            105,
+            131,
+            141,
+            181,
+            185,
+            228,
+            285,
+            317,
+            331,
+            348,
+            420,
+            450,
+            460,
+            476,
+            486,
+            557,
+            568,
+            584,
+            591,
+            608,
+            627,
+            632,
+            671,
+            848,
+            861,
+            863,
+            905,
+            966,
+            1101,
+            1218,
+            1230,
+            1258,
+            1275,
+            1279,
+            1284,
+            1299,
+            1300,
+            1423,
+            1433,
+            1489,
+            1516,
+            1539,
+            1620,
+            1623,
+            1625,
+            1686,
+            1694,
+            1723,
+            1785,
+            1795,
+            1819,
+            1838,
+            1875,
+            1914,
+            1990,
+            2007,
+            2020,
+            2051
+        ]
+    }
+}

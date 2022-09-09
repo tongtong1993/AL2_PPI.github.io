@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        },
+        {
+            "index": 1,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 2,
+            "atomType": "Negative",
+            "atomTypeInt": "13"
+        },
+        {
+            "index": 3,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            16,
+            69,
+            70,
+            122,
+            158,
+            235,
+            264,
+            291,
+            303,
+            350,
+            379,
+            406,
+            408,
+            509,
+            529,
+            535,
+            543,
+            566,
+            635,
+            645,
+            693,
+            743,
+            776,
+            808,
+            888,
+            903,
+            907,
+            932,
+            954,
+            993,
+            1011,
+            1082,
+            1083,
+            1096,
+            1102,
+            1106,
+            1122,
+            1140,
+            1144,
+            1149,
+            1188,
+            1242,
+            1272,
+            1276,
+            1306,
+            1330,
+            1380,
+            1406,
+            1447,
+            1464,
+            1482,
+            1484,
+            1485,
+            1575,
+            1583,
+            1606,
+            1632,
+            1641,
+            1654,
+            1679,
+            1698,
+            1782,
+            1794,
+            1796,
+            1798,
+            1812,
+            1821,
+            1857,
+            1862,
+            1885,
+            1896,
+            1897,
+            1943,
+            1951,
+            1953,
+            1957,
+            2040,
+            2041
+        ]
+    }
+}

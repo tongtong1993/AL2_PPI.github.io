@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "NE2",
+            "residueNumber": "124",
+            "residueName": "HIS",
+            "isLigand": false,
+            "atomType": "Acceptor/Aromatic/Donor/Positive",
+            "color": "#7CB4BE",
+            "atomTypeInt": "330"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "CE1",
+            "residueNumber": "124",
+            "residueName": "HIS",
+            "isLigand": false,
+            "atomType": "Aromatic",
+            "color": "#7CB4BE",
+            "atomTypeInt": "3"
+        },
+        {
+            "index": 2,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CE2",
+            "residueNumber": "62",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 3,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "CD2",
+            "residueNumber": "62",
+            "residueName": "PHE",
+            "isLigand": true,
+            "atomType": "Aromatic/Hydrophobic",
+            "color": "#9BCE91",
+            "atomTypeInt": "21"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 2,
+            "interactionType": "Aromatic",
+            "distance": "2.899022520923319",
+            "interactionTypeInt": "19"
+        },
+        {
+            "patterns": [],
+            "source": 0,
+            "target": 3,
+            "interactionType": "Aromatic",
+            "distance": "3.1826992703773938",
+            "interactionTypeInt": "19"
+        },
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 3,
+            "interactionType": "Aromatic",
+            "distance": "3.460956495438833",
+            "interactionTypeInt": "19"
+        }
+    ]
+}

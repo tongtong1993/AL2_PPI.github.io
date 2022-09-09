@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "atomType": "Aromatic/Hydrophobic",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 2,
+            "atomType": "Aromatic/Hydrophobic",
+            "atomTypeInt": "21"
+        },
+        {
+            "index": 3,
+            "atomType": "Aromatic/Hydrophobic",
+            "atomTypeInt": "21"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            95,
+            157,
+            207,
+            215,
+            225,
+            243,
+            249,
+            301,
+            410,
+            414,
+            424,
+            660,
+            668,
+            680,
+            687,
+            697,
+            700,
+            895,
+            1119,
+            1165,
+            1178,
+            1183,
+            1211,
+            1236,
+            1624,
+            1748,
+            1866,
+            1968,
+            1986,
+            2029
+        ]
+    }
+}

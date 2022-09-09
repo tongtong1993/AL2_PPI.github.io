@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 1,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 2,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 3,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 4,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        },
+        {
+            "index": 5,
+            "atomType": "Hydrophobic",
+            "atomTypeInt": "7"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "interactionType": "Hydrophobic",
+            "interactionTypeInt": "29"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            246,
+            277,
+            311,
+            318,
+            334,
+            398,
+            481,
+            559,
+            567,
+            629,
+            657,
+            679,
+            735,
+            741,
+            750,
+            767,
+            786,
+            806,
+            843,
+            944,
+            945,
+            997,
+            1013,
+            1042,
+            1061,
+            1150,
+            1166,
+            1182,
+            1208,
+            1425,
+            1586,
+            1647,
+            1719,
+            1729,
+            1753,
+            1839,
+            1895,
+            1911,
+            1915,
+            1932,
+            1977,
+            1988
+        ]
+    }
+}

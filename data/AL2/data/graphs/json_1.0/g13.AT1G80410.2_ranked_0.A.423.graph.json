@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "patterns": [],
+            "chain": "B",
+            "atomName": "SG",
+            "residueNumber": "43",
+            "residueName": "CYS",
+            "isLigand": true,
+            "atomType": "Acceptor/Disulfide Bond/Donor",
+            "color": "#9BCE91",
+            "atomTypeInt": "170"
+        },
+        {
+            "index": 1,
+            "patterns": [],
+            "chain": "A",
+            "atomName": "SG",
+            "residueNumber": "908",
+            "residueName": "CYS",
+            "isLigand": false,
+            "atomType": "Acceptor/Disulfide Bond/Donor",
+            "color": "#7CB4BE",
+            "atomTypeInt": "170"
+        }
+    ],
+    "links": [
+        {
+            "patterns": [],
+            "source": 1,
+            "target": 0,
+            "interactionType": "Hydrogen bond",
+            "distance": "2.00449424553688",
+            "interactionTypeInt": "31"
+        }
+    ]
+}

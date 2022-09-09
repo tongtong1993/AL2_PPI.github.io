@@ -1,0 +1,123 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "atomType": "Acceptor/Negative",
+            "atomTypeInt": "26"
+        },
+        {
+            "index": 1,
+            "atomType": "Donor/Positive",
+            "atomTypeInt": "55"
+        },
+        {
+            "index": 2,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 3,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 4,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 5,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        },
+        {
+            "index": 6,
+            "atomType": "Positive",
+            "atomTypeInt": "11"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "interactionType": "Hydrogen bond",
+            "interactionTypeInt": "31"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "interactionType": "Salt bridge",
+            "interactionTypeInt": "23"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "interactionType": "Repulsive",
+            "interactionTypeInt": "37"
+        }
+    ],
+    "graphproperties": {
+        "inputgraphs": [
+            56,
+            68,
+            75,
+            218,
+            605,
+            628,
+            686,
+            696,
+            794,
+            893,
+            1038,
+            1097,
+            1110,
+            1206,
+            1234,
+            1262,
+            1320,
+            1337,
+            1354,
+            1402,
+            1455,
+            1520,
+            1628,
+            1635,
+            1653,
+            1712,
+            1803,
+            1818,
+            1845,
+            1922
+        ]
+    }
+}

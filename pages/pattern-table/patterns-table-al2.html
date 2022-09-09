@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ppi-Gremlin</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta name="author" content="Alexandre Fassio">
+  <meta name="description" content="ppiGReMLIN: A graph mining based detection of conserved structural arrangements in protein-protein interfaces">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="../../media/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../media/css/AdminLTE.min.css">
+  <!-- DataTable style -->
+  <link rel="stylesheet" href="../../media/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../media/css/dataTables.fixedHeader.min.css">
+
+  <link rel="stylesheet" href="../../media/css/skin-gremlin.css">
+  <link rel="stylesheet" href="../../media/css/main-gremlin.css">
+
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+  
+  <div class="wrapper">
+
+    <!-- Main Header -->
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="../../index.html" class="logo">      
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>PPI-GREMLIN</b></span>
+      </a>
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
+
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+
+      </nav>
+    </header>
+
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+          
+          <li class="header">Menu</li>
+        
+          <li><a href="../files.html"><i class="fa fa-file"></i> <span>Files</span></a></li>
+          
+          <li class="treeview">
+            <a href="#"><i class="fa fa-database"></i> <span>Serine Protease</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="../details/details-soybean.html">Dataset details</a></li>
+              <li><a href="../pattern-table/patterns-table-soybean.html">Graph patterns table</a></li>
+              <li><a href="../graphs/graphs-soybean.html">Graph patterns view</a></li>
+              <li><a href="../charts/charts-soybean.html">Graphical analysis</a></li>
+            </ul>
+          </li>
+
+          <li class="treeview active">
+            <a href="#"><i class="fa fa-database"></i> <span>BCL-2</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="../details/details-bcl.html">Dataset details</a></li>
+              <li class="active"><a href="#">Graph patterns table</a></li>
+              <li><a href="../graphs/graphs-bcl.html">Graph patterns view</a></li>
+              <li><a href="../charts/charts-bcl.html">Graphical analysis</a></li>
+            </ul>
+          </li>
+          
+          <li class="treeview">
+            <a href="#"><i class="fa fa-database"></i> <span>AL2</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="pages/details/details-al2.html">Dataset details</a></li>
+              <li><a href="pages/pattern-table/patterns-table-al2.html">Graph patterns table</a></li>
+              <li><a href="pages/graphs/graphs-al2.html">Graph patterns view</a></li>
+              <li><a href="pages/charts/charts-al2.html">Graphical analysis</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Graph patterns table 
+          <small>BCL-2</small>
+        </h1>
+      </section>
+
+      <!-- Main content -->
+      <section class="content">
+
+        <div class="row">
+
+          <section class="col-lg-12 connectedSortable ui-sortable">
+
+            <div class="box" id="optionsDiv">         
+              <div class="box-header with-border">
+                <h3 class="box-title">Options</h3>
+
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                    <i class="fa fa-minus"></i></button>
+                </div>
+              </div>
+
+              <div class="box-body">
+      
+                <div class="row">
+                  <div class="col-lg-12">
+                        <label for="tableSelection" class="col-lg-3 control-label">Table type:</label>
+                        <div class="col-lg-9">
+                          <div class="btn-group table-selection-buttons" role="group" aria-label="Table type buttons" id="tableSelection">
+                              <button type="button" class="btn btn-sm btn-success active">Grouping columns</button>
+                              <button type="button" class="btn btn-sm btn-success">Simple table</button>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div id="secondaryOptionDiv">
+
+                      <div class="row secondary-opt">
+                          <div class="col-lg-12">
+                              <label for="groupSelection" class="col-lg-3 control-label">Filter by group:</label>
+                              <div class="col-lg-3">
+                                  <select class="btn btn-default btn-xs atom-color-selector" id="groupSelection"></select>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="row secondary-opt">
+                          <div class="col-lg-12">
+                              <label for="minPattern" class="col-lg-3 control-label">Filter by minimum pattern size:</label>
+                              <div class="col-lg-2">
+                                <input type="text" class="form-control input-sm" id="minPattern">
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="row secondary-opt">
+                          <div class="col-lg-12">
+                              <label for="minOccurrences" class="col-lg-3 control-label">Filter by minimum occurrences:</label>
+                              <div class="col-lg-2">
+                                <input type="text" class="form-control input-sm" id="minOccurrences">
+                              </div>
+                          </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              <!-- /.box-body -->
+            </div>
+          </section>
+        </div>
+
+        <div class="row">
+
+          <!-- Table section-->
+          <section class="col-lg-12 connectedSortable ui-sortable">
+            <div class="box">         
+              <div class="box-header with-border">
+                <h3 class="box-title">Grouping columns</h3>                
+              </div>
+
+              <div class="box-body">
+                <div class="table-div"></div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+      </section>
+      <!-- /.content -->
+
+      <!-- Modal -->
+      <div class="modal fade modal-primary" id="patternsViewModal" tabindex="-1" role="dialog" aria-labelledby="patternsViewModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+          <div class="modal-header">        
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title">Pattern graphs</h4>
+          </div>
+          <div class="modal-body">              
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="main-graphs-div"><div class="row"></div></div>
+                </div>
+              </div>
+          </div>
+            </div>
+        </div>
+      </div>
+      <!-- modal -->
+      
+    </div>
+    <!-- /.content-wrapper -->
+
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED JS SCRIPTS -->
+
+  <!-- jQuery -->
+  <script src="../../media/js/jquery-1.11.2.min.js"></script>
+  <!-- Bootstrap 3.3.6 -->
+  <script src="../../media/bootstrap/js/bootstrap.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../media/js/app.min.js"></script>
+  <!-- D3 -->
+  <script src="../../media/js/d3.min.js"></script>
+  <!-- D3 tip -->
+  <script src="../../media/js/d3-tip.js"></script>
+  <!-- DataTable plugin -->
+  <script src="../../media/js/jquery.dataTables.min.js"></script>
+  <script src="../../media/js/dataTables.fixedHeader.min.js"></script>  
+  <!-- Gremlin -->
+  <script src="../../media/js/gremlin/verticesNumberTable.js"></script>
+
+  <script type="text/javascript">
+      var path = "../../data/AL2";
+  </script>
+
+</body>
+
+</html>
